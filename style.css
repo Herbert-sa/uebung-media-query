@@ -36,6 +36,18 @@ html, body{
 }
 
 .row{
-	display: block;
+	display: flex;
+
 }
 
+@media (min-width:960px) {
+	body{
+		background: rgb(112, 27, 27);
+	}
+}
+
+@media (min-width:2000px) {
+	body{
+		background:black;
+	}
+}
